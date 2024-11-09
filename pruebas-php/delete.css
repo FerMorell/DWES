@@ -1,0 +1,111 @@
+/* General */
+body {
+    background-color: #f8d7e1;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+    color: #d61d64;
+    /* Rosa fuerte para los títulos */
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Encabezado y barra de navegación */
+
+header {
+    background-color: #f8c8d1;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #8b5b5b !important;
+}
+
+.nav-link:hover {
+    color: #f4a7c1 !important;
+}
+
+.btn-outline-primary {
+    /* color: #ff6f91; */
+    border-color: #ff6f91;
+}
+
+
+.btn-outline-primary:hover {
+    background-color: #ff6f91;
+    /* color: white; */
+}
+
+
+/* Formulario */
+form {
+    background-color: #ffffff;
+    /* Fondo blanco para el formulario */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.btn-danger,
+.btn-success {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: #e64980;
+    /* Rosa fuerte para eliminar */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #d61d64;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    /* Verde para cancelación */
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.modal-content {
+    background-color: #fce0e6;
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #f1b6ca;
+}
+
+.modal-title {
+    color: #d61d64;
+}
+
+.btn-secondary {
+    background-color: #d61d64;
+    border-color: #d61d64;
+}
+
+.btn-secondary:hover {
+    background-color: #ff66b3;
+    border-color: #ff66b3;
+}
